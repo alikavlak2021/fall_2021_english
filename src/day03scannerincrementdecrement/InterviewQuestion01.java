@@ -21,15 +21,20 @@ public class InterviewQuestion01 {
 		
 		System.out.println("Before swap: " + first + " - " + second);
 		
-		int temporary = 0;
+		//1.Way: By using 3rd container...
+//		int temporary = 0;		
+//		temporary = first;	
+//		first = second;		
+//		second = temporary;		
+//		System.out.println("After swap: " + first + " - " + second + " - " + temporary);
 		
-		temporary = first;
-		
-		first = second;
-		
-		second = temporary;
-		
-		System.out.println("After swap: " + first + " - " + second + " - " + temporary);
+		//2.Way: Without using 3rd container...
+		first = first + second;		
+		second = first - second;		
+		first = first - second;		
+		System.out.println("After swap: " + first + " - " + second);
+
+		scan.close();
 
 	}
 
