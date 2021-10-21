@@ -1,4 +1,4 @@
-package day13;
+package day13statickeyword;
 
 public class Cars {
 

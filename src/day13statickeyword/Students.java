@@ -1,4 +1,4 @@
-package day13;
+package day13statickeyword;
 
 //Type code to count the number objects created from Students class
 
