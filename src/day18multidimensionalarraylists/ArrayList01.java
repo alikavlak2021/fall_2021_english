@@ -71,42 +71,10 @@ public class ArrayList01 {
 		
 		list4.remove(2);
 		System.out.println(list4);//[Ali Can, Veli Han, Angelina Julie, Brad Pitt]
-		
+		//if the list is integer list we have to use index to remove any element but if the list is NOT integer list
+		//you can use the element itself inside the remove() like in the following example
 		list4.remove("Brad Pitt");
 		System.out.println(list4);//[Ali Can, Veli Han, Angelina Julie]
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
