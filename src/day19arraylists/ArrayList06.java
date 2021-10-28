@@ -20,7 +20,7 @@ public class ArrayList06 {
 		list1.add(32);
 		
 		System.out.println(deleteOddsIncreaseEvens(list1));
-
+		
 	}
 	//If you are sure, you will use a method in main method, make it static. Otherwise you will get CompileTime Error
 	public static List<Integer> deleteOddsIncreaseEvens(List<Integer> list){
