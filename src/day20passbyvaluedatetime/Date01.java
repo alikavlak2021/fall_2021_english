@@ -4,7 +4,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class Date01 {
+import day21accessmodifiersstringbuilder.Student;
+
+
+public class Date01 extends Student {
 	
 	/*
 	 	We can create object in 2 ways;
@@ -47,6 +50,8 @@ public class Date01 {
 		
 		System.out.println(currentTime.NOON);//12:00pm
 		System.out.println(Integer.MIN_VALUE);
+	
+		Student std3 = new Student();
 	}
 
 }
