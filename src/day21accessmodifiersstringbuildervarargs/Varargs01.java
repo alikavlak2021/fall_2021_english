@@ -1,8 +1,8 @@
-package day21accessmodifiersstringbuilder;
+package day21accessmodifiersstringbuildervarargs;
 
 public class Varargs01 {
 
-	public static void main(String... args) {
+	public static void main(String[] args) {
 		
 		System.out.println("The sum: " + add());//0		
 		System.out.println("The sum: " + add(7));		

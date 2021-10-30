@@ -1,4 +1,4 @@
-package day21accessmodifiersstringbuilder;
+package day21accessmodifiersstringbuildervarargs;
 
 public class AccessModifier01 {
 
