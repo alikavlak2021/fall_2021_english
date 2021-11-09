@@ -1,4 +1,4 @@
-package day25interface;
+package day25interfaceencapsulation;
 
 	 /*
 	 	1)"Encapsulation" means "data-hiding"

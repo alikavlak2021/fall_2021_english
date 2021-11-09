@@ -1,4 +1,4 @@
-package day25interface;
+package day25interfaceencapsulation;
 
 public class Tesla extends ElectricalVehicles{
 

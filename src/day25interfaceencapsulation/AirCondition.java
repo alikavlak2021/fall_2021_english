@@ -1,4 +1,4 @@
-package day25interface;
+package day25interfaceencapsulation;
 
 	/*
 	 	1)Interface is not a class, interface is interface
