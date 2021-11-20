@@ -6,12 +6,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-/*
+	/*
 	 	1)Maps use key-value structure
 	 	2)"key"s must be unique, "value"s can be duplicated
 	 	3)"key"s cannot be null except in HashMaps, in HashMaps you can use "null" just once
-	 	4)"value"s can use "null" many times
 	 	
+	 	4)In HashMaps "value"s can use "null" many times
 	 	5)HashMap does not put the elements in any order because of that HashMap is super fast
 	 	6)If you try to send into a map repeated key, Java will overwrite the value
 	 	7)HashMap is not thread-safe and not synchronized
@@ -23,7 +23,7 @@ public class HashMap01 {
 	public static void main(String[] args) {
 		
 		//How to put elements into a Map
-		HashMap<Integer, String> hm1 = new HashMap<>();		
+		HashMap<Integer, String> hm1 = new HashMap<>();	
 		hm1.put(100, "Ali");
 		hm1.put(101, "Veli");
 		hm1.put(102, "Aliye");
@@ -73,12 +73,13 @@ public class HashMap01 {
 		Collection<String> myValues = hm1.values();
 		System.out.println(myValues);//[Kemal, Ali, Veli, Aliye, Veliye, X, Z, null, K, null, L, ]
 		
+		//If you want to convert Map to a Collection use entrySet()
 		Set<Entry<Integer,String>> setFromMap = hm1.entrySet();		
 		for(Entry<Integer,String> w : setFromMap) {
 			System.out.print(w + " ");
 		}
 
-		//How to update a value in a Map
+											//How to update a value in a Map
 		String val1 = hm1.replace(999, "Zehra");
 		System.out.println(val1);//Z
 		
@@ -86,7 +87,7 @@ public class HashMap01 {
 		boolean val2 = hm1.replace(89, "L", "Leyla");
 		System.out.println(val2);
 		
-		//How to remove an element from a Map
+		                                   //How to remove an element from a Map
 		String val3 = hm1.remove(87);
 		System.out.println(val3);//X
 		System.out.println(hm1);

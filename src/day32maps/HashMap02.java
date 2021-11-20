@@ -19,8 +19,5 @@ public class HashMap02 {
 		for(Entry<String, Integer> w : mySetFromMap) {
 			System.out.println(w);
 		}
-		
-
 	}
-
 }
